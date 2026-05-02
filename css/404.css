@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(209, 100%, 95%);
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Чтобы пятна не создавали прокрутку */
+    position: relative;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.error-img {
+    max-width: 500px; /* Отрегулируйте размер под себя */
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    background-color: #e0fdf5;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #4df3ce;
+    transform: translateY(-3px);
+}
+
+/* Декоративные пятна по углам */
+.blob {
+    position: absolute;
+    background-color: #4df3ce;
+    z-index: 1;
+}
+
+.blob-left {
+    width: 350px;
+    height: 350px;
+    top: -100px;
+    left: -100px;
+    border-radius: 50%;
+    filter: blur(0px); /* Можно добавить блюр для мягкости */
+}
+
+.blob-right {
+    width: 450px;
+    height: 450px;
+    bottom: -150px;
+    right: -120px;
+    border-radius: 50%;
+}
