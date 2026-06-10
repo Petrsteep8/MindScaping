@@ -1,5 +1,3 @@
-/* ===== СБРОС ===== */
-
 *{
     margin:0;
     padding:0;
@@ -17,7 +15,7 @@ body{
     line-height:1.6;
 }
 
-/* ===== ОБЩЕЕ ===== */
+/* общее */
 
 .container{
     width:90%;
@@ -58,7 +56,7 @@ button{
     transition:0.3s;
 }
 
-/* ===== HEADER ===== */
+/* header */
 
 header{
     background:#222;
@@ -110,7 +108,7 @@ nav a.active::before{
     border-radius:5px;
 }
 
-/* ===== BURGER ===== */
+/* burger */
 
 .burger{
     display:none;
@@ -139,7 +137,7 @@ nav a.active::before{
     transform:rotate(-45deg) translate(5px,-5px);
 }
 
-/* ===== HERO ===== */
+/* hero */
 
 .hero{
     background:#fafafa;
@@ -216,7 +214,7 @@ nav a.active::before{
     object-fit:contain;
 }
 
-/* ===== FEATURES ===== */
+/* features */
 
 .features{
     margin-top:60px;
@@ -237,7 +235,7 @@ nav a.active::before{
     transform:translateY(-5px);
 }
 
-/* ===== STATISTICS ===== */
+/* stats */
 
 .stats{
     background:#f5f7fa;
@@ -265,7 +263,7 @@ nav a.active::before{
     color:#666;
 }
 
-/* ===== ADVANTAGES ===== */
+/* advantages */
 
 .advantages-grid{
     margin-top:60px;
@@ -281,7 +279,7 @@ nav a.active::before{
     text-align:center;
 }
 
-/* ===== COURSES ===== */
+/* courses */
 
 .courses{
     background:#f8f9fb;
@@ -333,7 +331,7 @@ nav a.active::before{
     background:#564de6;
 }
 
-/* ===== REVIEWS ===== */
+/* reviews */
 
 .reviews{
     background:#ebf3ff;
@@ -361,7 +359,7 @@ nav a.active::before{
     color:#6c63ff;
 }
 
-/* ===== FAQ ===== */
+/* faq */
 
 .faq-item{
     max-width:900px;
@@ -385,7 +383,7 @@ nav a.active::before{
     transition:.3s;
 }
 
-/* ===== CONTACT ===== */
+/* contact us */
 
 .contact{
     background:#f8f9fb;
@@ -447,7 +445,7 @@ nav a.active::before{
     background:#564de6;
 }
 
-/* ===== CTA ===== */
+/* cta */
 
 .cta{
     background:#6c63ff;
@@ -478,7 +476,7 @@ nav a.active::before{
     transform:scale(1.05);
 }
 
-/* ===== FOOTER ===== */
+/* footer */
 
 footer{
     background:#222;
@@ -497,7 +495,7 @@ footer{
     color:#cfcfcf;
 }
 
-/* ===== АДАПТИВ ===== */
+/* адаптивы */
 
 @media(max-width:992px){
 
