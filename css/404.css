@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Чтобы пятна не создавали прокрутку */
+    overflow: hidden;
     position: relative;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .error-img {
-    max-width: 500px; /* Отрегулируйте размер под себя */
+    max-width: 500px;
     width: 100%;
     height: auto;
     margin-bottom: 40px;
@@ -56,7 +56,6 @@ body {
     transform: translateY(-3px);
 }
 
-/* Декоративные пятна по углам */
 .blob {
     position: absolute;
     background-color: #4df3ce;
@@ -69,7 +68,7 @@ body {
     top: -100px;
     left: -100px;
     border-radius: 50%;
-    filter: blur(0px); /* Можно добавить блюр для мягкости */
+    filter: blur(0px);
 }
 
 .blob-right {

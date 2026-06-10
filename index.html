@@ -1,37 +1,347 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>MindScaping</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/include.js" defer></script>
+    <script src="js/burger.js" defer></script>
     <script src="js/main.js" defer></script>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="container">
-            <span class="logo">MindScaping</span>
-            <nav>
-                <ul>
-                    <li class="active"><a href="#">Главная</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="#">Сообщества</a></li>
-                    <li><a href="#">Журнал</a></li>
-                    <li class="btn"><a href="#">Войти</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <div class="hero container">
-            <div class="hero--info">
-                <h2>Онлайн образование</h2>
-                <h1>Развивай свои навыки</h1>
-                <p>Присоединяйтесь к нашему сообществу и начните свой путь к успеху уже сегодня!</p>
-                <button class="btn">Начать обучение</button>
+    <div id="header"></div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <h1>
+                    Развивайте современные навыки вместе с MindScaping
+                </h1>
+
+                <p>
+                    Онлайн-платформа для изучения востребованных IT-профессий.
+                    Учитесь в удобном формате, выполняйте практические задания
+                    и получайте поддержку наставников.
+                </p>
+
+                <div class="hero-list">
+                    <span>✓ Практические проекты</span>
+                    <span>✓ Поддержка наставников</span>
+                    <span>✓ Сертификат</span>
+                    <span>✓ Актуальные программы</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <button>Начать обучение</button>
+                    <button class="secondary">Подробнее</button>
+                </div>
+
             </div>
-            <img src="img/cartoon_programmer.png" alt="изображение" class="hero--img">
+
+            <div class="hero-image">
+                <img src="img/student.png" alt="Студент">
+            </div>
+
         </div>
-    </div>
+    </section>
+
+    <!-- ABOUT PLATFORM -->
+    <section class="about-platform">
+        <div class="container">
+
+            <h2>Почему выбирают MindScaping</h2>
+
+            <p class="section-text">
+                Мы создаем образовательную платформу, которая помогает
+                осваивать современные цифровые профессии через практику,
+                реальные проекты и поддержку экспертов.
+            </p>
+
+            <div class="features">
+
+                <div class="feature-card">
+                    <h3>Практика</h3>
+                    <p>Работа над реальными задачами и кейсами.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Наставники</h3>
+                    <p>Поддержка опытных специалистов.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Современные курсы</h3>
+                    <p>Только актуальные технологии и инструменты.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Сертификат</h3>
+                    <p>Подтверждение полученных навыков.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- STATISTICS -->
+    <section class="stats">
+
+        <div class="container stats-grid">
+
+            <div class="stat-card">
+                <h3>1500+</h3>
+                <p>Студентов</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>20+</h3>
+                <p>Курсов</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>95%</h3>
+                <p>Положительных отзывов</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>10+</h3>
+                <p>Направлений</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ADVANTAGES -->
+    <section class="advantages">
+
+        <div class="container">
+
+            <h2>Что вы получите</h2>
+
+            <div class="advantages-grid">
+
+                <div class="advantage">
+                    <h3>Гибкий график</h3>
+                    <p>Обучайтесь в удобное время.</p>
+                </div>
+
+                <div class="advantage">
+                    <h3>Практические задания</h3>
+                    <p>Закрепляйте знания на практике.</p>
+                </div>
+
+                <div class="advantage">
+                    <h3>Обратная связь</h3>
+                    <p>Получайте рекомендации от наставников.</p>
+                </div>
+
+                <div class="advantage">
+                    <h3>Карьерный рост</h3>
+                    <p>Развивайте востребованные навыки.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- POPULAR COURSES -->
+    <section class="courses">
+
+        <div class="container">
+
+            <h2>Популярные направления</h2>
+
+            <div class="courses-grid">
+
+                <div class="course-card">
+                    <img src="img/java.png" alt="">
+                    <h3>Java-разработчик</h3>
+                    <p>Создание серверных приложений.</p>
+                    <button>Подробнее</button>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/python.png" alt="">
+                    <h3>Python-разработчик</h3>
+                    <p>Один из самых востребованных языков.</p>
+                    <button>Подробнее</button>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/pentest.png" alt="">
+                    <h3>Тестировщик</h3>
+                    <p>Контроль качества программ.</p>
+                    <button>Подробнее</button>
+                </div>
+
+                <div class="course-card">
+                    <img src="img/ml.png" alt="">
+                    <h3>ML-инженер</h3>
+                    <p>Машинное обучение и AI.</p>
+                    <button>Подробнее</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews">
+
+        <div class="container">
+
+            <h2>Отзывы студентов</h2>
+
+            <div class="reviews-grid">
+
+                <div class="review-card">
+                    <p>
+                        Благодаря курсу Python смог устроиться на первую работу.
+                    </p>
+                    <h4>Александр</h4>
+                </div>
+
+                <div class="review-card">
+                    <p>
+                        Очень понравилась поддержка наставников и структура курса.
+                    </p>
+                    <h4>Мария</h4>
+                </div>
+
+                <div class="review-card">
+                    <p>
+                        Много практики и понятные материалы.
+                    </p>
+                    <h4>Игорь</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+
+        <div class="container">
+
+            <h2>Часто задаваемые вопросы</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Можно ли учиться без опыта?</h3>
+                    <p class="answer" hidden>Да, большинство курсов рассчитаны на новичков.</p>
+                </div>
+                <div class="faq-toggle">V</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Выдается ли сертификат?</h3>
+                    <p class="answer" hidden>Да, после успешного завершения программы.</p>
+                </div>
+                <div class="faq-toggle">V</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Есть ли поддержка наставников?</h3>
+                    <p class="answer" hidden>Да, на протяжении всего обучения.</p>
+                </div>
+                <div class="faq-toggle">V</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+
+        <div class="container">
+
+            <div class="contact-wrapper">
+
+                <div class="contact-info">
+
+                    <h2>Свяжитесь с нами</h2>
+
+                    <p>
+                        Остались вопросы по обучению или выбору курса?
+                        Заполните форму и мы свяжемся с вами в ближайшее время.
+                    </p>
+
+                    <div class="contact-details">
+                        <p>📧 mindscaping@gmail.com</p>
+                        <p>📞 +7 (999) 123-45-67</p>
+                        <p>📍 Москва, Россия</p>
+                    </div>
+
+                </div>
+
+                <form class="contact-form">
+
+                    <input
+                        type="text"
+                        placeholder="Ваше имя"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Ваш Email"
+                        required
+                    >
+
+                    <textarea
+                        placeholder="Ваше сообщение"
+                        rows="5"
+                        required
+                    ></textarea>
+
+                    <button type="submit">
+                        Отправить сообщение
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+
+        <div class="container">
+
+            <h2>Готовы начать обучение?</h2>
+
+            <p>
+                Выберите направление и начните развивать востребованные навыки уже сегодня.
+            </p>
+            <a href="catalog.html">
+                <button>Выбрать курс</button>
+            </a>
+            
+        </div>
+
+    </section>
+
+    <div id="footer"></div>
+
 </body>
 </html>
