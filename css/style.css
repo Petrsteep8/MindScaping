@@ -1,3 +1,5 @@
+@import url("font.css");
+
 *{
     margin:0;
     padding:0;
@@ -106,6 +108,20 @@ nav a.active::before{
     height:3px;
     background:#6c63ff;
     border-radius:5px;
+}
+
+.login-btn{
+    background:#fff;
+    color:#000 !important;
+    padding:10px 20px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.login-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
 
 /* burger */
@@ -520,6 +536,12 @@ footer{
     nav{
         gap:15px;
         font-size:14px;
+    }
+
+    .login-btn{
+        text-align:center;
+        width:100%;
+        box-sizing:border-box;
     }
 
     h1{
