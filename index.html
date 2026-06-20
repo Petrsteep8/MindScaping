@@ -8,6 +8,8 @@
     <script src="js/include.js" defer></script>
     <script src="js/burger.js" defer></script>
     <script src="js/main.js" defer></script>
+    <script src="js/reviews-slider.js" defer></script>
+    <script src="js/contact-form.js" defer></script>
 </head>
 <body>
 
@@ -198,45 +200,73 @@
 
     <!-- revs -->
     <section class="reviews">
-
         <div class="container">
-
-            <h2>Отзывы студентов</h2>
-
-            <div class="reviews-grid">
-
-                <div class="review-card">
-                    <p>
-                        Благодаря курсу Python смог устроиться на первую работу.
-                    </p>
-                    <h4>Александр</h4>
-                </div>
-
-                <div class="review-card">
-                    <p>
-                        Очень понравилась поддержка наставников и структура курса.
-                    </p>
-                    <h4>Мария</h4>
-                </div>
-
-                <div class="review-card">
-                    <p>
-                        Много практики и понятные материалы.
-                    </p>
-                    <h4>Игорь</h4>
-                </div>
-
+            <div class="section-header">
+                <h2>Отзывы студентов</h2>
+                <p>
+                    Истории людей, которые уже начали свой путь вместе с MindScaping
+                </p>
             </div>
 
-        </div>
+            <div class="reviews-slider-wrapper">
+                <button class="slider-btn prev-btn">
+                    ←
+                </button>
+                <div class="reviews-slider">
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            Отличный курс, который помог мне освоить JS
+                        </p>
+                        <div class="review-author">
+                            <div class="author-avatar">ИИ</div>
+                            <div>
+                                <h4>Иван Иванов</h4>
+                                <span>Frontend-разработка</span>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            Теория сразу закрепляется практикой.
+                        </p>
+                        <div class="review-author">
+                            <div class="author-avatar">МС</div>
+                            <div>
+                                <h4>Мария Смирнова</h4>
+                                <span>UX/UI Дизайн</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            В портфолио уже есть реальные проекты
+                        </p>
+                        <div class="review-author">
+                            <div class="author-avatar">ДП</div>
+                            <div>
+                                <h4>Дмитрий Петров</h4>
+                                <span>Python-разработка</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="slider-btn next-btn">
+                    →
+                </button>
+
+            </div>
+        </div>
     </section>
 
     <!-- faq -->
     <section class="faq">
-
         <div class="container">
-
             <h2>Часто задаваемые вопросы</h2>
 
             <div class="faq-item">
@@ -262,22 +292,15 @@
                 </div>
                 <div class="faq-toggle">V</div>
             </div>
-
         </div>
-
     </section>
 
     <!-- contact us -->
     <section class="contact">
-
         <div class="container">
-
             <div class="contact-wrapper">
-
                 <div class="contact-info">
-
                     <h2>Свяжитесь с нами</h2>
-
                     <p>
                         Остались вопросы по обучению или выбору курса?
                         Заполните форму и мы свяжемся с вами в ближайшее время.
@@ -288,11 +311,9 @@
                         <p>📞 +7 (999) 123-45-67</p>
                         <p>📍 Москва, Россия</p>
                     </div>
-
                 </div>
 
                 <form class="contact-form">
-
                     <input
                         type="text"
                         placeholder="Ваше имя"
@@ -317,28 +338,28 @@
 
                 </form>
 
+                <div class="form-success">
+                    <div class="success-icon">✓</div>
+                    <h3>Успешно!</h3>
+                    <p>
+                        Спасибо за обращение. Мы свяжемся с вами в ближайшее время.
+                    </p>
+                </div>
             </div>
-
         </div>
-
     </section>
 
     <!-- cta -->
     <section class="cta">
-
         <div class="container">
-
             <h2>Готовы начать обучение?</h2>
-
             <p>
                 Выберите направление и начните развивать востребованные навыки уже сегодня.
             </p>
             <a href="catalog.html">
                 <button>Выбрать курс</button>
             </a>
-            
         </div>
-
     </section>
 
     <div id="footer"></div>
