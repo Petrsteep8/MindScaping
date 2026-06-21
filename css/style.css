@@ -230,6 +230,10 @@ nav a.active::before{
     object-fit:contain;
 }
 
+.hero a{
+    text-decoration:none;
+}
+
 /* features */
 
 .features{

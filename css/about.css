@@ -124,6 +124,9 @@
     color:#666;
 }
 
+p.section-text{
+    margin-bottom:20px;
+}
 /* team */
 
 .team{
